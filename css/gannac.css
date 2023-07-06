@@ -1,0 +1,59 @@
+body {
+	background: #e9c2c5;
+	margin : 0;
+	padding: 0;
+	background-position: center;
+	font-family: berlin;
+}
+.box {
+	width: 30%;
+	padding: 30px;
+	margin-left: 30%;
+	top: 30%; 
+	left: 30%;
+	transform: translate (-50%,-50%);
+	background: #fee1dd;
+	text-align: center;
+
+}
+.ganna {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.box input[type="text"] , .box input[type="password"]
+{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 3px solid #cea0aa;
+	padding: 14px 10px;
+	width: 220px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25px; /* changes the color when taking the mouse cursor over the text */
+}
+.box input[type="text"]:focus , .box input[type="password"]:focus { /* enlarges the box when taking the mouse cursor over the text */
+	width: 270px;
+	border-color: #cea0aa;
+}
+.box input [type="submit"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 3px solid #cea0aa;
+	padding: 14px 35px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25px;
+	cursor: pointer;
+}
+ input [type="submit"]:hover{ /* glows the button when clicking on it */
+	background: #ff0000;
+}

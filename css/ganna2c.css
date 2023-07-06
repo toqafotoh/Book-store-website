@@ -1,0 +1,41 @@
+body {
+	background: #b8d8e3;
+	margin : 0;
+	padding: 0;
+	background-position: center;
+	font-family: berlin;
+}
+.ganna {
+    padding: 0;
+	margin: 0;
+	background: #fee1dd;
+	text-align: center;
+	margin-top: 10px;
+
+}
+h3{
+    text-align: center;
+	font-style: italic;
+}
+fieldset {
+	background: #fee1dd;
+	border: 1px solid #CCC;
+	margin-left: 10px;
+	padding: 10px;
+	padding-top: 5px;
+}
+legend {
+	background: #FFF;
+	border: 1px solid #CCC;
+	padding: 8px;
+}
+hr {
+	border: 1px solid #fee1dd;
+}
+.txtAr {
+	padding: 10px;
+	width: 400px;
+	height: 100px;
+	display: block;
+	margin-bottom: 10px;
+}

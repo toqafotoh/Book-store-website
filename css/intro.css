@@ -1,0 +1,79 @@
+body{
+    background-image:url(../images/library.jpg);
+  background-size: cover;
+    height: 1700px;
+}
+
+.head{
+  /*  background:  -webkit-linear-gradient(rgba(255, 255, 255, 0.781) 60% ,rgba(233, 133, 150, 0.672));
+  */  
+   width: 700px;
+    height: 125px;
+   border-bottom: 15px solid #9db0ceb7;
+   border-right: 15px solid #9db0cead; 
+    padding-right: 114px ;
+    margin-top: 10px;
+
+}
+.h1{
+    text-align: right;
+    font-size: 70px;
+   color: white;
+   background-color: transparent;
+}
+
+.charles{
+    width: 300px;
+    height: 400px;
+    border-left: 20px solid #9db0cebb;
+    border-right: 20px solid #9db0ceb5;
+    margin-top: 76px;
+    margin-left: 132px;
+}
+.shaks{
+    width: 300px;
+    height: 400px;
+    border-left: 20px solid #9db0ceb4;
+    border-right: 20px solid #9db0ceb3;
+    margin-left: 700px;
+    margin-top: -404px;
+}
+
+.emily{
+    width: 300px;
+    height: 400px;
+    border-left: 20px solid  #9db0ceb5;
+    border-right: 20px solid  #9db0ceb4;
+    margin-top: 167px;
+    margin-left: 132px;
+}
+.shawky{
+    width: 300px;
+    height: 400px;
+    border-left: 20px solid  #9db0cebc;
+    border-right:  20px solid  #9db0cead;
+    margin-left: 700px;
+    margin-top: -398px;
+}
+.po{
+    font-size: 30px;
+    color:white ;
+    margin-left: 20px;
+   transition: 0.5s;
+   padding: 14px;
+}
+.par{
+    margin-top: 0px;
+    background-color: #1b222de9;
+    height: 100px;
+    transition: 0.5s;
+
+}
+.par:hover{
+    background-color:  #000000e1;
+    width: 300px;
+    height: 105px;
+    margin-top: 30px;
+    border-bottom: 20px solid #9db0cead ;
+    
+}

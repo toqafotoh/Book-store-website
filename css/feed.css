@@ -1,0 +1,100 @@
+body{
+    background-image: url(../images/nnnn.jpg);
+    background-size: cover;
+    margin: 0px;
+    width: 1000px;
+    height: 1200px;
+
+}
+
+.containerrr{
+    width: 650px;
+    height: 730px;
+    background-color: rgba(247, 245, 245, 0.479);
+    transform: rotateX(30deg);
+    border-radius: 20px;  
+    margin-left: 350px;  
+}
+.feedback{
+    color: black;
+    font-family:serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 25px;
+}
+hr{
+    width: 400px;
+}
+.form{
+    margin-top: 30px;
+    padding-left: 128px;
+
+
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    outline: none;
+    background-color: rgba(237, 237, 237, 0.447);
+    border-radius: 15px;
+    transition-duration: 0.6s;
+    border: 0px;
+
+
+}
+label{
+    font-size: x-large;
+    font-family: serif;
+    color: black
+       
+}
+input[type="radio"]{
+    width: 50px;
+    
+}    
+
+:placeholder-shown{
+    font-size: large;
+    
+}
+
+.button{
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+    font-size: x-large;
+    border-radius: 50px;
+    border-style: hidden;
+    transition: 0.3s;    
+}
+.button:hover{
+    background-color:rgba(233, 133, 150, 0.85);
+    width: 400px;
+
+}
+.first.last.email.about.rate{
+margin-bottom: 20px;
+}
+.footeer{
+    width: 1350px;
+}
+.headd{
+    width: 1350px;
+}
+.h11{
+    background-color: transparent;
+    color: white;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+ 
+.h22{
+    background-color: transparent;
+    color: white;
+    font-size: 40px;
+}
+
+

@@ -1,0 +1,65 @@
+/*removing the padding and margin from all elents and the font */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+/*background for the web page*/
+.containerr{
+    background: rgba(184,216,227,1);
+    min-height: 100vh;
+    width: 100%;
+
+}
+.h1{
+    color:black;
+    background-color: transparent;
+    font-size: xx-large;
+
+}
+ul li{
+    list-style: none;
+}
+/*styling for text and image*/
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.content .text{
+    width: 40%;
+}
+.content .text h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    color:#556b2f;
+}
+.content .text p{
+    font-size: 18px;
+    margin: 20px 0;
+}
+.content .text a{
+    text-decoration: none;
+    background:#5e6828;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 20px;   
+}
+.content .image{
+    width: 30%;   
+}
+.content.image img{
+    width: 180px;
+}
+ .content .text a:hover{
+    color: #556b2f;
+    background-color:white;
+    transform: scale(1.1);
+ }
+ .content .image img:hover{
+     transform: scale(1.1);
+
+ }
+ 

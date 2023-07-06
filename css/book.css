@@ -1,0 +1,204 @@
+.tasnim          { font-family: Berlin Sans FB, Franklin Gothic Medium, sans-serif; font-size: 13pt; color: #1E1964; text-align: center; 
+  font-weight:normal; margin-top:0; margin-bottom:0; background-color: #E6CED0 }
+
+.nema           { font-family: Times New Roman, Bodoni MT, serif; font-size: 13pt; color: #1E1964; font-weight: bold; 
+ margin-top:0; margin-bottom:0; text-indent: 9; line-height: 150%; background-color: #EFE4E6 }
+
+.tas        { font-family: Ink Free, Lucida Handwriting, Bradley Hand ITC; font-size: 16pt; color: #BD1B90; 
+ font-weight: bold; margin-top:0; margin-bottom:0; text-align: left }
+ 
+.tasnim-h           { font-family: Berlin Sans FB, Franklin Gothic Medium, sans-serif; font-size: 15pt; color: #1E1964; text-align: left; 
+  font-weight:normal; margin-top:0; margin-bottom:0; margin-right: 3px; background-color: #E6CED0 }
+
+.nemo            { font-family: Times New Roman, Bodoni MT, serif; font-size: 13pt; color: #1E1964; font-weight: 
+ bold; text-indent: 9; text-align: left; line-height: 150% }
+
+table        { background-color: #F5F4EF; border-style: none;  }
+
+th           { background-color: #E6CED0; border-style: none; border-radius: 5px; height: 20px}
+
+td			 { border:1px solid #E6C3D0; border-radius: 5px; background-color: #E6CED0; margin-bottom: 2px }
+
+* {margin: 0; padding: 0; box-sizing: border box;}
+
+.container {background-color: #F5F4EF; display: flex; align-items: center; justify-content: center;}
+
+.search-bar {width: 100%; max-width: 800px; background: rgba(184, 216, 227, 0.3); display: flex; align-items: center; border-radius: 60px; padding: 6px 10px;}
+
+.search-bar input {background: transparent; flex: 1; border: 0; outline: none; padding: 6px 6px; font-size: 13pt; color: #1E1964;}
+
+::placeholder {color: #1E1964;}
+
+.search-bar button img {width: 18px;}
+
+.search-bar button {border: 0; border-radius:50%; width: 30px; height:  30px; background: #BD1B90; cursor: pointer;}
+
+.header-hover {background-color: #E6CED0;}
+
+.header-hover:hover {color: #BD1B90;}
+
+.account-hover {background-color: #F5F4EF;}
+
+.account-hover:hover {background: rgba(184, 216, 227, 0.5); border-radius: 5px; margin: 3px 5px 3px 5px}
+
+.shortcut-hover {background-color: #F5F4EF;}
+
+.shortcut-hover:hover {background: rgba(184, 216, 227, 0.5); border-radius: 5px; margin: 0px 10px 0px 10px}
+
+.footer-hover {background-color: #EFE4E6;}
+
+.footer-hover:hover {text-decoration: underline;}
+
+.social a {color: #1E1964; text-decoration: none;}
+
+.social a:hover {color: #BD1B90;}
+
+#display-image{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/blank-profile-picture-973460__340.webp);
+    margin-top: 35px;
+    margin-left: 80px;
+  }
+ 
+.img-secret {
+  width: 220px;
+  height: 350px;
+  margin: 40px;
+}
+
+body {
+  background-color: #b5bcc28a;
+  background-image: url(../images/photo_2022-04-29_00-07-54.jpg)
+}
+
+.bookko {
+  background-color: #fafbfd;
+  width: 85%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  margin-top: 30px;
+}
+
+.book-title {
+  color: #24246e;
+  position: absolute;
+  margin-top: -395px;
+  margin-left: 320px;
+  font-family: "Merriweather", "Georgia", serif;
+}
+
+.book-auther{
+  margin-top: -352px;
+  margin-left: 320px;
+  
+}
+
+.discribtion {
+  margin-top: 20px;
+  width: 350px;
+  margin-left: 320px;
+  font-size: 17px;
+
+}
+
+.e-book{
+  margin-left: 320px;
+  margin-top: 15px;
+}
+
+.see{
+  margin-left: 5px;
+  font-weight: bold;
+  font-family: "Merriweather", "Georgia", serif;
+}
+
+.auther , .secret {
+  height: 650px;
+}
+
+.review{
+  height: 470px;
+}
+
+.frances{
+  margin: 60px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.auther-name {
+  color: #24246e;
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 260px;
+  font-family: "Merriweather", "Georgia", serif;
+}
+
+.dis-auther {
+  width: 350px;
+  margin-left: 260px;
+  font-size: 17px;
+  margin-top: -150px;
+  margin-bottom: 30px;
+}
+
+hr {
+  border-bottom-style: double;
+  width: 90%;
+}
+
+.toka {
+  margin-left: 260px;
+  position: absolute;
+}
+
+.a-book{
+  width: 80px;
+  height: 120px;
+  margin: 10px;
+}
+
+.photos {
+  margin-top: 100px;
+  margin-left: 150px;
+ }
+
+.a-book:hover {
+  opacity: 0.7;
+}
+
+.start-review{
+  color: #24246e;
+  margin-left: 80px;
+  font-family: "Merriweather", "Georgia", serif;
+  margin-top: 50px;
+}
+
+#image-input {
+  margin: 15px;
+  margin-left: 80px;
+  position: absolute;
+  margin-top: 120px;
+}
+
+.p {
+  margin-left: 260px;
+  margin-top: -30px;
+}
+ .name{
+  width: 234px;
+  margin-left: 260px;
+  margin-top: -70px;
+  position: absolute;
+ }
+
+.submit {
+  margin-left: -243px;
+  position: absolute;
+  margin-top: 140px;
+}
