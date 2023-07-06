@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="images/JGT Favicon L.ic">
+    <title>Sign Up</title>
+</head>
+<body>  
+<!-- Enter Boutton -->
+<ul class="e">
+    <li   class="s" onclick="document.getElementById('id01').style.display='block'" >Sign Up</li>
+     <li   class="s" onclick="document.getElementById('id02').style.display='block'">Premium</li>
+     </ul>
+     <!-- End Enter Boutton -->
+     <!-- Sign Up Box -->
+     <div id="id01" class="modal">
+    <div id="box">
+      <form action="/action_page.php">
+      <div class="left">
+          <h1>Sign Up</h1>
+          <input type="text" name="username" placeholder="User Name" />
+          <input type="email" name="email" placeholder="Email" />
+          <input type="password" name="password" placeholder="Password" />
+          <input type="password" name="password2" placeholder="Retype password" />
+          <div class="clearfix">
+            <input type="submit" value="Sign Up" class="btn">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        
+      
+          </div>
+      </div>
+      <div class="right">
+        <span class="loginwith">Sign in with<br />social network</span>
+        <button class="social-signin facebook" >Log in with facebook</button>
+        <button class="social-signin twitter">Log in with Twitter</button>
+        <button class="social-signin google">Log in with Google+</button>
+      </div>
+      <div class="or">OR</div>   
+      </div> </form>
+      <script>
+        var modal = document.getElementById('id01');
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+        </script></div>
+        <!-- End Sign Up Box -->
+       <!--  Premium Box -->
+        <div id="id02" class="modal2">
+          <div class="container">
+            <div class="grid">
+                <div class="card">
+                    <h2 class="card_title">Premuim</h2>
+                    <p class="pricing">10$<span class="small">/per month</span></p>
+                    <p>20% off </p>
+                    <hr>
+                    <ul class="features">
+                        <li>No ad interruptions</li>
+                        <li>Unlimited offline stories</li>
+                        <li>creat story</li>
+                        
+                    </ul>
+                    <a onclick="document.getElementById('id03').style.display='block'" class="cta_btn">Subscribe</a>
+                </div>
+                <div class="card">
+                    <h2 class="card_title">Premuim +</h2>
+                    <p class="pricing">15$<span class="small">/per month</span></p>
+                    <p>For limited period </p>
+                    <hr>
+                    <ul class="features">
+                      <li>No ad interruptions</li>
+                      <li>Unlimited offline stories</li>
+                      <li>Unlock any 20 Paid Stories</li>
+                    </ul>
+                     <a onclick="document.getElementById('id03').style.display='block'"class="cta_btn">Subscribe</a>
+                </div>
+                <div class="card">
+                    <h2 class="card_title">Annual</h2>
+                    <p class="pricing">90$<span class="small">/per year</span></p>
+                    <p>Save $30</p>
+                    <hr>
+                    <ul class="features">
+                      <li>No ad interruptions</li>
+                      <li>Unlimited offline stories</li>
+                      <li>creat story</li>
+                    </ul>
+                     <a onclick="document.getElementById('id03').style.display='block'" class="cta_btn">Subscribe</a>
+                </div>
+            </div>
+        </div>
+        <button onclick="document.getElementById('id01').style.display='block'" class="link">Go to sign up free</button>
+          
+     <script>
+            var modal = document.getElementById('id02');
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+            </script> </div>
+          <!-- End Premium Box --> 
+          <!-- payment information   -->
+        <div id="id03" class="modal3">
+          <div class="row">
+              <div id="box2">
+                <form action="/action_page.php" class="form">
+                
+                  
+                    <div class="left2">
+                      <h1 style="color: #FFFFFF">Sign Up</h1>
+                      <label for="fname"> Full Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                      <label for="email"></i> Email</label>
+                      <input type="email" id="email" name="email" placeholder="john@example.com">
+                      <label for="adr"> Address</label>
+                      <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                      <label for="city">
+                      <div class="row">
+                        <div class="col-50">
+                          <label for="state">State</label>
+                          <input type="text" id="state" name="state" placeholder="NY">
+                        </div>
+                        <div class="col-50">
+                          <label for="zip">Zip</label>
+                          <input type="text" id="zip" name="zip" placeholder="10001">
+                        </div>
+                      </div>
+                      <label style="margin-bottom: 30px">
+                        <input type="checkbox" checked="checked" name="sameadr"> 
+                        Do you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.
+                      </label>
+                      <input type="submit" value="Submit" class="btn2" >
+                      <button type="button" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn2">Cancel</button>
+                    </div>
+          
+                    <div class="right2">
+                      <h1 style="color: #FFFFFF">Payment</h1>
+
+                      <label for="cname">Name on Card</label>
+                      <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                      <label for="ccnum">Credit card number</label>
+                      <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                      <label for="expmonth">Exp Month</label>
+                      <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                    
+                       
+                          <label for="expyear">Exp Year</label>
+                          <input type="text" id="expyear" name="expyear" placeholder="2018">
+                        
+                        
+                          <label for="cvv">CVV</label>
+                          <input type="text" id="cvv" name="cvv" placeholder="352">
+                        
+                      <label for="fname">Accepted Cards</label>
+                      <div class="icon-container">
+                        <i class="fa fa-cc-visa" style="color:navy;"></i>
+                        <i class="fa fa-cc-amex" style="color:blue;"></i>
+                        <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                        <i class="fa fa-cc-discover" style="color:orange;"></i>
+                      </div>
+                      
+                   </div>
+                    
+                  
+                
+               </form>
+              </div>
+            </div>
+
+          <script>
+            var modal = document.getElementById('id03');
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+            </script> </div>
+
+</body>
+</html>
